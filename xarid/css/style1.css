@@ -1,0 +1,64 @@
+body, div {
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper {
+    width: 800px;
+    margin: 0 auto
+}
+.wow img {
+   width: 100%;
+   margin: 0 auto;
+   height: auto;
+}
+.button {
+    border-radius: 10px;
+    background-color: #61362C;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.6;
+    
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    top: -30px;
+    
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -30;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .button:active {
+    background-color: #61362C;
+    box-shadow: 0 5px #61362C;
+    transform: translateY(4px);
+  }
+  .button:hover {background-color: #61362C}
+  .button:hover {opacity: 1}
+  
